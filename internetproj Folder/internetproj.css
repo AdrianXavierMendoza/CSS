@@ -1,0 +1,220 @@
+*{
+    margin:0px;
+    padding: 0px;
+    border-style: dotted;
+    border-width: 0px;
+}
+#container{
+    width:750px;
+    min-height: 600px;
+    background-image:linear-gradient(rgb(248, 248, 248),white);
+}
+#internet{
+    min-height:100px;
+    background-color: white;
+
+}
+#internet img{
+    height:75px;
+    position: absolute;
+}
+#internet p{
+    font-size: 45px;
+    display: inline-block;
+    padding-left: 80px;
+    padding-top: 10px;
+    font-family: 'Franklin Gothic', 'Arial', Arial, sans-serif;
+}
+#internet span{
+    color: #22649D;
+}
+#internet h1{
+    background-image: linear-gradient(#25669E,rgb(95, 139, 175),#25669E);
+    height: 30px;
+    font-size: 25px;
+    padding-left: 19px;
+    padding-top: 8px;
+    color:white;
+    font-family: 'Franklin Gothic', 'Arial', Arial, sans-serif;
+}
+#nav{
+    height: 510px;
+    width: 175px;
+    padding:5px;
+    padding-top: 20px;
+    display:inline-block;
+}
+#nav h4, #nav p{
+    font-family: 'Franklin', 'Arial Narrow';
+    font-weight: bolder;
+}
+#nav h4 span{
+    color: red;
+    margin-bottom: 10px;
+}
+#nav p{
+    font-size: 14px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#nav p span{
+    color:#417AAA;
+}
+.buttons{
+    height: 25px;
+    padding-top:5px;
+    border-radius:10px;
+    margin-bottom: 5px;
+    box-shadow:2px 2px 5px #1F1F20;
+    padding-left: 20px;
+}
+#nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 100%;
+    text-align:center;
+    font-family: 'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
+}
+#button1{
+    background-image: linear-gradient(#6398C3,#24669F);
+}
+#button2{
+    background-image: linear-gradient(#EAAD56,#F07200);
+}
+#button1 a{
+    padding-left: 10px;
+}
+#ad{
+    width:150px;
+    height: 230px;
+    padding:10px;
+    background-image: url("images/ad_background.png");
+    position: relative;
+    top:30px;
+    margin-top: 0px;
+}
+#ad p{
+    font-family: 'Franklin Gothic', 'Arial', Arial, sans-serif;
+    Font-size: 20px;
+    text-align:center;
+    color: white;
+    font-weight: lighter;
+}
+#matrix{
+    width: 100%;
+    position: inherit;
+}
+#ninja{
+    width: 45%;
+    margin-left: 25%;
+}
+#button3{
+    background-image: linear-gradient(#17C1DF,#72CFDF);
+    color: white;
+    font-size: 14px;
+    font-weight: lighter;
+    font-family: 'Franklin Gothic', 'Arial', Arial, sans-serif;
+}
+#button3 a{
+    padding-left: 10px;
+}
+.skinny{
+    border-style: outset;
+    border-width: 1px;
+    border-color: rgb(221, 221, 221);
+    margin-top: 30px;
+}
+#body{
+    display: inline-block;
+    width:500px;
+    vertical-align: top;
+    padding-left: 50px;
+}
+#home{
+    display:inline-block;
+    min-width:50px;
+    vertical-align: top;
+    padding-top: 5px;
+    color:#23649D;
+}
+#home img{
+    width: 20px;
+}
+#call{
+    width:40px;
+    position:relative;
+    left:270px;
+    top:5px;
+}
+#phone{
+    display: inline-block;
+    width: 120px;
+    height:45px;
+    position: relative;
+    left:270px;
+}
+#phone p{
+    font-size: 50%;
+    font-family: 'Franklin Gothic', 'Arial', Arial, sans-serif;
+    color: #17C0DF;
+}
+#phone h1{
+    color: #17C0DF;
+    font-size:19px;
+    font-family: 'Franklin Gothic', 'Arial', Arial, sans-serif;
+}
+#content{
+    font-family: 'Franklin Gothic', 'Arial', Arial, sans-serif;
+    font-stretch: narrower;
+    margin-top: 30px;
+    border-top-style: outset;
+    border-top-width: 2px;
+    border-color: rgb(185, 182, 182);
+    padding-top:10px;
+}
+#content h2, #footer h2{
+    font-size: 15px;
+    color: #22649D;
+    margin-bottom: 10px;
+}
+#content p{
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+#content ul, #content ol{
+    font-size: 12px;
+    padding-left: 20px;
+    margin-bottom:5px;
+}
+.teal{
+    color: #1BA2B6;
+}
+.bold{
+    font-weight: bolder;
+}
+#content img{
+    width: 200px;
+    margin-left:150px;
+    margin-top:10px;
+    margin-bottom: 10px;
+}
+#footer{
+    border-style: solid;
+    border-color:#0584E0; 
+    border-top-width: 5px;
+    border-left-width: 5px;
+    border-right-width: 5px;
+    padding:10px 10px 5px 10px;
+    margin-top: 10px;
+}
+#footer img{
+    height: 90px;
+    position: absolute;
+}
+#footer p, #footer h2{
+    margin-left: 125px;
+}
+#footer p{
+    font-size: 12px;
+    margin-top: 10px;
+}
